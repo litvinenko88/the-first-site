@@ -1,0 +1,488 @@
+@import "normalizezz.scss"
+@import "resetss.scss"
+
+$Poppins:'Poppins', sans-serif
+$Volkhov: 'Volkhov', serif
+$blue: #181E4B
+$orange: #DF6951
+$gray: #5E6282
+*
+   box-sizing: border-box
+html
+   font-size: 62.5%
+body
+   font-family: $Poppins
+   font-size: 1.6rem 
+.container
+   max-width: 144rem
+   margin: 0 auto
+// Первая секция
+.main-section
+   padding-top: 7rem
+   overflow: hidden
+   margin-bottom: 15rem
+.menu-content
+   display: flex
+   justify-content: space-between
+   margin-bottom: 14rem
+   position: relative
+   &__logo
+      width: 11.5rem
+   &__nav-container
+      display: flex
+      align-items: center
+   &__decore-fona
+      width: 76.6rem
+      position: absolute
+      top: -8rem
+      right: -20.5rem
+      z-index: -1  
+   &__option
+      font-size: 1.6rem
+      color: $blue
+      background: none
+      border: none  
+.list
+   margin-right: 5.5rem
+   font-weight: 500
+   color: $blue
+   cursor: pointer
+   &_btc
+      margin-right: 5.5rem
+      border: .1rem solid #212832
+      font-weight: 500
+      color: $blue
+      padding: 1rem 2rem
+      border-radius: .5rem
+      cursor: pointer
+   &_btc-language
+      color: $blue
+      font-weight: 500
+      border: none
+      background: none
+      cursor: pointer
+.main-content
+   position: relative
+   margin-bottom: 12rem
+//Левая секция
+.wrapper-left
+   &__above-the-main-title
+      text-transform: uppercase
+      color: $orange
+      font-weight: 700
+      font-size: 2rem
+      margin-bottom: 2.5rem
+   &__main-title
+      font-size: 8.4rem
+      font-weight: 700
+      font-family: $Volkhov
+      color: $blue
+      margin-bottom: 3rem
+   &__main-text
+      font-size: 1.6rem
+      font-weight: 500
+      line-height: 3rem
+      color: $gray
+      margin-bottom: 3.5rem
+   &__button-container
+      display: flex
+   &__find-out-more
+      padding: 2rem
+      border-radius: 1rem
+      border: none
+      color: #fff
+      background: #F1A501
+      box-shadow: 0 2rem 3.5rem rgba(241, 165, 1, 0.15)
+      cursor: pointer
+      margin-right: 4.5rem
+   &__play
+      font-size: 5.2rem
+      color: $orange
+      margin-right: 2rem
+   &__play-demo
+      border: none
+      background: none
+      cursor: pointer
+      color: $blue
+   &__decore-text
+      width: 38.5rem
+      position: absolute
+      top: 11rem
+      left: 26.5rem
+      z-index: -1
+//Правая секция
+.wrapper-right
+   &__devuhka
+      width: 78.3rem
+      height: 76.4rem
+      position: absolute
+      top: -10rem
+      right: 3.5rem
+   &__plane1
+      width: 16rem
+      position: absolute
+      top: -8rem
+      right: 54rem
+   &__plane2
+      width: 16rem
+      z-index: -1
+      position: absolute
+      top: 1rem
+      right: 1.5rem
+//Вторая секция
+.second-section
+   margin-bottom: 15rem
+.second-content
+   position: relative
+   &__second-text
+      text-align: center
+      text-transform: uppercase
+      color: $blue
+      font-size: 1.8rem
+      margin-bottom: 1rem
+   &__second-heading
+      text-align: center
+      font-family: $Volkhov
+      font-size: 5rem
+      font-weight: 700
+      color: $blue
+      margin-bottom: 11rem
+   &__icons-plus
+      width: 15.3rem
+      height: 16.6rem
+      position: absolute
+      right: 0
+      bottom: 35rem
+.card-box
+   box-shadow: 0rem 10rem 8rem rgba(0, 0, 0, 0.02), 0rem 6.48rem 4.68rem rgba(0, 0, 0, 0.0151852), 0rem 3.85rem 2.54rem rgba(0, 0, 0, 0.0121481), 0rem 2rem 1.3rem rgba(0, 0, 0, 0.01), 0rem .81rem .65rem rgba(0, 0, 0, 0.00785185), 0rem .18rem .31rem rgba(0, 0, 0, 0.00481481)
+   border-radius: 3.6rem
+   background: #FFFFFF
+   position: relative
+.second-card-content
+   display: grid
+   grid-template-columns: repeat(4, 1fr)
+   justify-items: center
+   &__card
+      width: 26.7rem
+      height: 31.4rem
+   &__img
+      text-align: center
+      margin-bottom: 3rem
+   &__icons
+      width: 16rem
+   &__heading
+      font-size: 2rem
+      font-weight: 600
+      text-align: center
+      color: $blue
+      margin-bottom: 1.5rem
+   &__text
+      font-size: 1.6rem
+      line-height: 2.6rem
+      color: $gray
+      text-align: center
+   &__square
+      width: 10rem
+      height: 10rem
+      background: #DF6951
+      border-radius: 3rem 0rem 1rem
+      position: absolute
+      left: -3.5rem
+      bottom: -3rem
+      z-index: -1
+//Третья секция
+.third-section
+   margin-bottom: 15rem
+.third-content
+   &__third-text
+      text-align: center
+      text-transform: uppercase
+      color: $blue
+      font-size: 1.8rem
+      margin-bottom: 1rem
+   &__third-heading
+      text-align: center
+      font-family: $Volkhov
+      font-size: 5rem
+      font-weight: 700
+      color: $blue
+      margin-bottom: 11rem
+.third-card-content
+   display: flex
+   justify-content: space-around
+   &__card
+      position: relative
+   &__card-img
+      width: 31.4rem
+      height: 45.7rem
+      border-radius: 2.4rem
+      filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481))
+   &__card-container
+      width: 31.4rem
+      height: 12rem
+      padding: 2.5rem
+      border-radius: 0 0 2.4rem 2.4rem 
+      background: #ffffff
+      position: absolute
+      top: 34rem
+   &__box-card-1
+      display: flex
+      justify-content: space-between
+      margin-bottom: 2rem
+   &__box-card-tour-text
+      font-size: 1.8rem
+      color: $gray
+   &__box-car-price-text
+      font-size: 1.8rem
+      color: $gray
+   &__box-car-data-text
+      font-size: 1.6rem
+      color: $gray
+   &__box-card-2
+      display: flex
+   &__box-icons
+      margin-right: 1.5rem
+   &__card-img-spiral
+      width: 9.6rem
+      z-index: -1
+      position: absolute
+      bottom: 5rem
+      left: 28rem
+//Четвертая секция
+.fourth-section
+   margin-bottom: 21.5rem
+.fourth-content 
+   &__blue-shadow
+      width: 15.4rem
+      height: 15.7rem
+      background: #59B1E6
+      filter: blur(15rem)
+      z-index: -1
+      position: absolute
+      top: 0
+      left: 18rem
+.fourth-card-content-common
+   display: flex
+   align-items: center
+//Левая секция
+.fourth-card-content-left
+   margin-right: 34.5rem
+   &__fourth-text
+      text-transform: uppercase
+      color: $blue
+      font-size: 1.8rem
+      margin-bottom: 1rem     
+   &__fourth-heading
+      font-family: $Volkhov
+      font-size: 5rem
+      font-weight: 700
+      color: $blue
+      margin-bottom: 5rem
+   &__card
+      display: flex
+      margin-bottom: 5rem
+   &__card-icons
+      width: 4.7rem
+      height: 4.8rem
+      margin-right: 2rem
+   &__small-headline
+      color: $gray
+      font-size: 1.6rem
+      font-weight: 700
+      margin-bottom: .5rem
+   &__discription-text
+      color: $gray
+      font-size: 1.6rem
+      font-weight: 400
+      line-height: 2.4rem
+//Правая секция
+.fourth-card-content-right
+   position: relative
+   &__card
+      width: 37rem
+      height: 40rem
+      background: #ffffff
+      box-shadow: 0 10rem 8rem rgba(0, 0, 0, 0.02), 0px 6.64rem 4.6rem rgba(0, 0, 0, 0.0151852), 0 3.8rem 2.5rem rgba(0, 0, 0, 0.0121481), 0 2rem 1.3rem rgba(0, 0, 0, 0.01), 0 .8rem .65rem rgba(0, 0, 0, 0.00785185), 0 .185rem .31rem rgba(0, 0, 0, 0.00481481)
+      border-radius: 2.6rem
+      position: relative
+   &__card-conteiner
+      width: 32.1rem
+      height: 16.1rem
+      margin: 0 auto
+      padding-top: 2rem
+      border-radius: 2.4rem
+   &__img-devuhka
+      width: 32.1rem
+      height: 16.1rem
+      font-size: 1.8rem
+      font-weight: 500
+      border-radius: 2.4rem
+      margin-bottom: 2.5rem
+   &__small-headline
+      font-size: 1.8rem
+      font-weight: 500
+      margin-bottom: 1.5rem
+   &__conteiner-smail-text
+      display: flex
+      margin-bottom: 2.5rem
+   &__smail-text
+      font-size: 1.6rem
+      color: $gray
+      margin-right: 1.5rem
+      &:last-child
+         margin-right: 0
+   &__icons
+      width: 3.6rem
+      height: 3.6rem
+      color: $gray
+      background: #F5F5F5
+      text-align: center
+      line-height: 3.5rem
+      border-radius: 2.4rem
+      margin-right: 2rem
+      margin-bottom: 3rem
+      &:last-child
+         margin-right: 0
+   &__conteiner-icons-text
+      display: flex
+   &__icons-dom
+      color: $gray
+      margin-right: 1.5rem
+   &__icons-text
+      color: $gray
+      margin-right: 14rem
+   &__icons-like
+      color: #4152CA
+   &__small-container
+      width: 26.3rem
+      height: 12.9rem
+      padding: 20px
+      border-radius: 1.8rem
+      box-shadow: 0 10rem 8rem rgba(0, 0, 0, 0.02), 0px 6.64rem 4.6rem rgba(0, 0, 0, 0.0151852), 0 3.8rem 2.5rem rgba(0, 0, 0, 0.0121481), 0 2rem 1.3rem rgba(0, 0, 0, 0.01), 0 .8rem .65rem rgba(0, 0, 0, 0.00785185), 0 .185rem .31rem rgba(0, 0, 0, 0.00481481)
+      background: #ffffff
+      display: flex
+      position: absolute
+      top: 20rem
+      left: 28rem
+   &__smail-img-conteiner
+      margin-right: 1.5rem
+   &__smail-icons
+      width: 5rem
+      height: 5rem
+   &__small-container-text
+      color: $gray
+      font-size: 1.4rem
+      margin-bottom: 1rem
+   &__small-container-heading
+      font-size: 1.8rem
+      font-weight: 500
+      margin-bottom: 1.5rem
+   &__text-above-the-school
+      font-size: 1.4rem
+      margin-bottom: 1rem
+   &__scale
+      width: 15.6rem
+      height: 0.5rem
+      background: #F5F5F5
+      border-radius: 2.4rem
+   &__scale-progressa
+      background-color: #8A79DF
+      width: 40%
+      height: .5rem
+      border-radius: 1rem
+span
+   color: $gray
+//Пятая секция
+
+@media ( max-width: 1600px)
+   .container 
+      width: 1350px
+   html
+      font-size: 62%
+
+@media ( max-width: 1440px)
+   .container 
+      width: 1190px
+   html
+      font-size: 51.5%  
+      
+@media ( max-width: 1250px)
+   .container 
+      width: 960px
+   html
+      font-size: 43.5%       
+
+@media ( max-width: 992px)
+   .container 
+      width: 720px
+   html
+      font-size: 39.8%  
+   .fourth-card-content-left
+      margin-right: 8rem
+   .menu-content
+      &__decore-fona
+         right: -19.5rem
+   .wrapper-right
+      &__devuhka
+         right: -7rem
+      &__plane1
+         width: 16rem
+         position: absolute
+         top: -8rem
+         right: 40rem
+      &__plane2
+         width: 16rem
+         z-index: -1
+         position: absolute
+         top: 1rem
+         right: -8.5rem
+
+
+@media ( max-width: 768px)
+   .container 
+      width: 540px
+   html
+      font-size: 35.5%  
+   .menu-content
+      &__nav-container
+         display: none
+      &__decore-fona
+         right: -18.5rem
+   .wrapper-right
+      &__devuhka
+         display: none
+      &__plane1
+         display: none
+      &__plane2
+         display: none
+   .hamburger
+      width: 30px
+      height: 14px
+      span
+         height: 2px
+         width: 100%
+         display: block
+         background: #000
+         margin-bottom: 4px
+         transition: 1s all
+         &:last-child
+            margin-bottom: 0
+   .hamburger_active
+      span
+         margin-bottom: -2px
+         &:nth-child(1)
+            transform: translateY(3px) rotate(-45deg)
+         &:nth-child(2)
+            display: none
+         &:nth-child(3)
+            transform: translateY(3px) rotate(45deg)
+            
+            
+            
+@media ( max-width: 577px)
+   .container 
+      width: 100%
+   html
+      font-size: 25.5% 
+   .second-card-content
+      grid-template-columns: repeat(2, 1fr)
